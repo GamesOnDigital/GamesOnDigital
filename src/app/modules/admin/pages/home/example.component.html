@@ -1,0 +1,65 @@
+<div class="relative flex flex-col flex-auto min-w-0 overflow-hidden">
+    <div class="relative">
+        <div
+            class="absolute top-7 right-10 bg-opacity-75 p-2 text-4xl sm:text-7xl tracking-tight leading-tight">
+            חוויה מיוחדת ל
+            <span id="eventTypeSpan" @changeText>
+                <span *ngFor="let letter of randomEventType; let i = index">{{ isShowingText ? letter : '' }}</span>
+            </span>
+        </div>
+        <button class="absolute bottom-7 right-10" mat-stroked-button [color]="'primary'"
+            (click)="scrollPoint1(pricing)">
+            Get Started
+        </button>
+        <img class="h-40 lg:h-80 object-cover" src="../../../../assets/images/avatars/euphoriaRTL.png" alt="Cover image">
+    </div>
+    <div class="p-2 text-4xl sm:text-7xl tracking-tight leading-tight mt-10 text-center">חוויה מותאמת
+        אישית לכל
+        אירוע
+    </div>
+    <div class="p-2 text-2xl sm:text-4xl tracking-tight leading-tight mt-1 text-center">צרו חוויה
+        אינטראקטיבית ובלתי נשכחת בהתאמה אישית לכל אירוע או פעילות
+    </div>
+
+    <div class="flex justify-center mt-10 text-center">
+        <fuse-card class="flex flex-col max-w-60 w-full filter-article mr-4">
+            <img class="object-cover" src="../../../../../assets/images/avatars/trip.png" alt="Card cover image">
+            <div class="m-8">
+                <div class="text-2xl font-semibold leading-tight">חתונה</div>
+                <div class="text-secondary text-md mt-1">תוכלו לשדרג את זמן ההמתנה לחתונה עם שעשועות לכלה או לחתן</div>
+            </div>
+        </fuse-card>
+
+        <fuse-card class="flex flex-col max-w-60 w-full filter-article mr-4">
+            <img class="object-cover" src="../../../../../assets/images/avatars/birthday.png" alt="Card cover image">
+            <div class="m-8">
+                <div class="text-2xl font-semibold leading-tight">יום הולדת</div>
+                <div class="text-secondary text-md mt-1">תוכלו לשדרג את זמן ההמתנה לחתונה עם שעשועות לכלה או לחתן</div>
+            </div>
+        </fuse-card>
+
+        <fuse-card class="flex flex-col max-w-60 w-full filter-article">
+            <img class="object-cover" src="../../../../assets/images/avatars/cala.png" alt="Card cover image">
+            <div class="m-8">
+                <div class="text-2xl font-semibold leading-tight">נופש</div>
+                <div class="text-secondary text-md mt-1">גם השבועות שלפני הנופש יכולים להיות חוויה
+                    צרו משחק כדי להביע את זה
+                </div>
+            </div>
+        </fuse-card>
+    </div>
+    <div class="mt-12 sm:mt-24">
+        <d></d>
+    </div>
+    <div class="mt-12 sm:mt-24" #pricing>
+        <pricing-modern></pricing-modern>
+    </div>
+    <div class="mt-12 sm:mt-24">
+        <help-center-faqs></help-center-faqs>
+    </div>
+    <!-- <div class="mt-12 sm:mt-24">
+        rfvrvrvr
+        <app-beyond-payment></app-beyond-payment>
+    </div> -->
+   
+</div>
