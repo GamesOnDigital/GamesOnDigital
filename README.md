@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Fuse - Admin template and Starter project for Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli)
@@ -25,3 +26,21 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice.  To 
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+## Hi there 👋
+
+<!--
+**GamesOnDigital/GamesOnDigital** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+>>>>>>> b62eacee2308511174662f8eb41bccc7db2b3201
